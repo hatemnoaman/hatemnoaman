@@ -1,14 +1,5 @@
 # 📄 Dr. Hatem Mohammed No'aman Erfan - Professional CV
 
-<p align="center">
-  <img src="https://img.shields.io/badge/CV-Online-7c6df7?style=for-the-badge&logo=github" alt="CV Online"/>
-  <img src="https://img.shields.io/badge/HTML-CSS-orange?style=for-the-badge&logo=html5" alt="HTML & CSS"/>
-  <img src="https://img.shields.io/badge/Mobile-Responsive-green?style=for-the-badge&logo=responsive-design" alt="Mobile Responsive"/>
-</p>
-
-<p align="center">
-  <img src="screenshot.png" alt="CV Screenshot" width="600"/>
-</p>
 
 ## 🚀 Overview
 
@@ -16,7 +7,7 @@ This repository contains my professional CV as an interactive, responsive web pa
 
 ### 🔗 Live Link
 
-View my CV online: [[https://hatemnoaman.github.io](https://hatemnoaman.github.io)](https://hatemnoaman.github.io/hatemnoaman/)
+View my CV online: (https://hatemnoaman.github.io/hatemnoaman/)
 
 ## 🧪 Features
 
