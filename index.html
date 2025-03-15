@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Hatem Mohammed No'aman Erfan - CV</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      background-color: #f0f1fa;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .resume-container {
+      display: flex;
+      max-width: 1000px;
+      background-color: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    .left-column {
+      width: 35%;
+      background-color: #7c6df7;
+      color: white;
+      padding: 30px;
+    }
+    
+    .right-column {
+      width: 65%;
+      padding: 30px;
+    }
+    
+    .profile {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid rgba(255,255,255,0.2);
+      margin-bottom: 20px;
+      object-fit: cover;
+      background-color: #6a5ce6;
+    }
+    
+    .profile-name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .profile-title {
+      font-size: 16px;
+      opacity: 0.9;
+      margin-bottom: 15px;
+    }
+    
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .contact-icon {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+    
+    .section-title {
+      position: relative;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background-color: #e9c4ff;
+      margin-left: 15px;
+    }
+    
+    .right-column .section-title::after {
+      background-color: #ddd;
+    }
+    
+    .skills-list {
+      margin-bottom: 30px;
+    }
+    
+    .skill-item {
+      margin-bottom: 15px;
+    }
+    
+    .skill-name {
+      margin-bottom: 5px;
+    }
+    
+    .skill-rating {
+      display: flex;
+    }
+    
+    .skill-rating-star {
+      color: #ffcc00;
+      margin-right: 3px;
+    }
+    
+    .right-section {
+      margin-bottom: 30px;
+    }
+    
+    .section-content {
+      margin-bottom: 20px;
+    }
+    
+    .experience-item, .education-item {
+      margin-bottom: 20px;
+    }
+    
+    .item-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    
+    .item-subtitle {
+      color: #7c6df7;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+    
+    .item-date {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    
+    .item-desc {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+    }
+    
+    .achievements-list {
+      list-style-position: inside;
+      margin-left: 5px;
+    }
+    
+    .achievements-list li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .achievements-list li::before {
+      content: '🏆';
+      position: absolute;
+      left: 0;
+      color: #7c6df7;
+    }
+    
+    .publications-list li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .publications-list li::before {
+      content: '📄';
+      position: absolute;
+      left: 0;
+      color: #7c6df7;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <div class="left-column">
+      <div class="profile">
+        <img src="file.jpg" alt="Dr. Hatem Erfan" class="profile-img">
+        <div class="profile-name">Dr. Hatem Mohammed No'aman Erfan</div>
+        <div class="profile-title">Computer Science Assistant Professor</div>
+      </div>
+      
+      <div class="contact-info">
+        <div class="section-title">
+          <span>Contact</span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>h.noaman@jadara.edu.jo</div>
+        </div>
+		<div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>hnoaman@fci.bsu.edu.eg</div>
+        </div>
+		<div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>+962 797735937</div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>+2 010 11553929</div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🏢</div>
+          <div>Faculty of Science and Information Technology, Jadara University, Irbid 21110, Jordan</div>
+        </div>
+      </div>
+      
+      <div class="skills">
+        <div class="section-title">
+          <span>Technical Skills</span>
+        </div>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-name">Cybersecurity</div>
+            <div class="skill-rating">
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Arabic NLP</div>
+            <div class="skill-rating">
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Machine Learning</div>
+            <div class="skill-rating">
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">☆</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Programming (C++, C#)</div>
+            <div class="skill-rating">
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Network Security</div>
+            <div class="skill-rating">
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">☆</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Web Development</div>
+            <div class="skill-rating">
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">★</span>
+              <span class="skill-rating-star">☆</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="certifications">
+        <div class="section-title">
+          <span>Certifications</span>
+        </div>
+        <div class="section-content">
+          <ul class="achievements-list">
+            <li>Certified Threat Intelligence Analyst (CTIA), EC-Council, 2024</li>
+            <li>Malware Analysis Fundamentals, ITI, 2024</li>
+            <li>Reverse Code Engineering, ITI, 2024</li>
+            <li>Advanced Malware Analysis, ITI, 2024</li>
+            <li>Data Analysis Track, Udacity, 2019</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="right-column">
+      <div class="right-section">
+        <div class="section-title">
+          <span>Professional Profile</span>
+        </div>
+        <div class="section-content">
+          <p class="item-desc">
+            Accomplished Computer Science Assistant Professor and Cybersecurity Program Coordinator with extensive experience in network security, digital transformation, and AI applications. Expert in Arabic Natural Language Processing, machine learning, and cybersecurity frameworks. Proven track record in project management, academic leadership, and research with multiple publications in peer-reviewed journals.
+          </p>
+        </div>
+      </div>
+      
+      <div class="right-section">
+        <div class="section-title">
+          <span>Current Positions</span>
+        </div>
+		<div class="section-title">
+        <div class="experience-item">
+            <div class="item-title">Computer Science Assistant Professor</div>
+            <div class="item-subtitle">Faculty of Science and Information Technology, Jadara University, Jordan</div>
+            <div class="item-date">Mars 2025 - Present</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="right-section">
+        <div class="section-title">
+          <span>Education</span>
+        </div>
+        <div class="section-content">
+          <div class="education-item">
+            <div class="item-title">PhD in Computer Science</div>
+            <div class="item-subtitle">Mansoura University</div>
+            <div class="item-date">February 2019</div>
+            <div class="item-desc">Thesis: "Enhanced Arabic Language model for Arabic Language Applications"</div>
+          </div>
+          <div class="education-item">
+            <div class="item-title">Master of Science in Computer Science</div>
+            <div class="item-subtitle">Mansoura University</div>
+            <div class="item-date">October 2008</div>
+            <div class="item-desc">Thesis: "Automatic Arabic document classification using machine learning approaches"</div>
+          </div>
+          <div class="education-item">
+            <div class="item-title">Bachelor of Science in Computer Science</div>
+            <div class="item-subtitle">Mansoura University</div>
+            <div class="item-date">2001 - 2005</div>
+            <div class="item-desc">Grade: Very Good</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="right-section">
+        <div class="section-title">
+          <span>Work Experience</span>
+        </div>
+        <div class="section-content">
+		  <div class="experience-item">
+            <div class="item-title">Computer Science Assistant Professor, Faculty of Computer Science and Artificial Intelligence, Beni-Suef University</div>
+            <div class="item-subtitle">Beni-Suef University, Egypt</div>
+            <div class="item-date">April 2019 - Mars 2025</div>
+          </div>
+          <div class="experience-item">
+            <div class="item-title">Project Manager, Network and Cybersecurity</div>
+            <div class="item-subtitle">Beni-Suef University, Egypt</div>
+            <div class="item-date">July 2021 - September 2023</div>
+          </div>
+          <div class="experience-item">
+            <div class="item-title">Digital Transformation Project Manager</div>
+            <div class="item-subtitle">Beni-Suef Technological University, Egypt</div>
+            <div class="item-date">April 2020 - June 2021</div>
+          </div>
+          <div class="experience-item">
+            <div class="item-title">ICT Project Coordinator</div>
+            <div class="item-subtitle">Korean Egyptian Faculty for Industry and Energy Technology</div>
+            <div class="item-date">August 2020 - June 2021</div>
+          </div>
+          <div class="experience-item">
+            <div class="item-title">Computer Science Lecturer</div>
+            <div class="item-subtitle">Community College, King Saud University, KSA</div>
+            <div class="item-date">February 2009 - June 2012</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="right-section">
+        <div class="section-title">
+          <span>Research Areas</span>
+        </div>
+        <div class="section-content">
+          <ul class="achievements-list">
+            <li>Cybersecurity Frameworks for smart agriculture, fintech, education, and medical systems</li>
+            <li>Natural Language Processing for Arabic language applications</li>
+            <li>Agricultural Intelligence Systems for farm management and crop yield prediction</li>
+            <li>Machine Learning Applications in various domains</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="right-section">
+        <div class="section-title">
+          <span>Publications</span>
+        </div>
+        <div class="section-content">
+          <ul class="publications-list">
+            <li>"Enhancing Question Pairs Identification with Ensemble Learning" (IJACSA, 2023)</li>
+            <li>"Improved Emotion Detection Framework for Arabic Text using Transformer Models" (2023)</li>
+            <li>"Enhancing recurrent neural network-based language models by word tokenization" (2018)</li>
+            <li>"A Hybrid Approach for Automatic Morphological Diacritization of Arabic Text" (2018)</li>
+            <li>"Automatic Arabic Spelling Errors Detection and Correction" (2016)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
